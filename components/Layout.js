@@ -16,8 +16,8 @@ export default class Layout extends Component {
             type='text/css'
             href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'
           />
-          <link rel='stylesheet' type='text/css' href='/reset.css' />
-          <link rel='stylesheet' type='text/css' href='/styles.css' />
+          <link rel='stylesheet' type='text/css' href='css/reset.css' />
+          <link rel='stylesheet' type='text/css' href='css/styles.css' />
         </Head>
         {this.props.children}
       </Fragment>

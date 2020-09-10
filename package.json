@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build && next export -o docs",
     "deploy": "npm run build && echo pocket.band > docs/CNAME && git add -A && git commit -m 'update' && git push",
-    "css:build": "node-sass --omit-source-map-url assets/sass/styles.scss public/styles.css",
+    "css:build": "node-sass --omit-source-map-url assets/sass/styles.scss public/css/styles.css",
     "css:watch": "npm run css:build -- --watch"
   },
   "keywords": [

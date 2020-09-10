@@ -36,9 +36,6 @@ export async function getStaticPaths() {
   const paths = result.data.items.map((video) => ({
     params: { vid: video.snippet.resourceId.videoId },
   }));
-  //   const paths = result.data.items.map((video) => {
-  //     console.log('ihnijm', video);
-  //   });
 
   return {
     paths: paths,

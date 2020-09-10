@@ -7,12 +7,12 @@ export default class Video extends Component {
   }
 
   render() {
-    const vidObj = new YoutubeVideoClass(this.props.video);
+    const video = new YoutubeVideoClass(this.props.video);
     return (
       <Fragment>
         <div>
-          <h1># {vidObj.title}</h1>
-          <span>{vidObj.yaml}</span>
+          <h1># {video.title}</h1>
+          <span>{video.yaml}</span>
         </div>
       </Fragment>
     );

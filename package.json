@@ -1,0 +1,25 @@
+{
+  "name": "pocketband",
+  "version": "1.0.0",
+  "description": "sharing pocket operator backups via youtube",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o docs",
+    "deploy": "npm run build && echo pocket.band > docs/CNAME && git add -A && git commit -m 'update' && git push",
+    "css:build": "node-sass --omit-source-map-url assets/sass/styles.scss public/css/styles.css",
+    "css:watch": "npm run css:build -- --watch"
+  },
+  "keywords": [
+    "pocket",
+    "operator"
+  ],
+  "author": "jollygrin",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.5.3",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

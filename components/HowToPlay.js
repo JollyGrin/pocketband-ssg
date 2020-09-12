@@ -32,6 +32,9 @@ export default class HowToPlay extends Component {
             <a href='https://play.google.com/store/apps/details?id=com.extreamsd.usbaudiorecorderpro'>
               USB Audio Recorder PRO
             </a>
+            . You can also try just using your browser (on android go on chrome
+            and go to <a href='file:///sdcard/'>file:///sdcard/</a> then
+            navigate to your download folder & select the file.)
           </p>
           <p>
             Once you have the file loaded, turn on airplane mode or turn off

@@ -6,7 +6,6 @@
   border-radius: 5px;
   transform: translate(0, -1px);
   box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0), 0px 1px 0px 0px $color-red;
-
   transition: all 0.25s ease-in-out;
 }
 
@@ -17,4 +16,14 @@
 .button:active {
   transform: translate(0, 0);
   box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0), 0px 0px 0px 1.5px $color-red;
+}
+
+.button.black {
+  box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0), 0px 1px 0px 0px $color-black;
+}
+.button.black:hover {
+  box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0), 0px 3px 0px 0px $color-black;
+}
+.button.black:active {
+  box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0), 0px 0px 0px 1.5px $color-black;
 }

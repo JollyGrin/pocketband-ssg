@@ -6,11 +6,16 @@ export default class Nav extends Component {
       <Fragment>
         <section id='nav'>
           <div className='nav-left'>
-            <img src='media/square.svg'></img>
+            <a href='/'>
+              <img src='media/square.svg'></img>
+            </a>
           </div>
           <div className='nav-right'>
-            <span>hi</span>
-            <span>hi</span>
+            <span>
+              <a href='https://discord.gg/rnWutwS'>
+                <i className='fab fa-discord' />
+              </a>
+            </span>
           </div>
         </section>
       </Fragment>

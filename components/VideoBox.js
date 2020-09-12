@@ -19,10 +19,6 @@ export default class VideoBox extends Component {
 
     return (
       <Fragment>
-        {console.log('props', this.props)}
-        {/* {console.log('video', video)}
-        {console.log('yaml', details)} */}
-
         <div className='video-box'>
           <a
             href={`https://youtu.be/${video.id}`}

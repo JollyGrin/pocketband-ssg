@@ -32,7 +32,7 @@ export default function Post({ vid, preview }) {
             width='640'
             height='360'
             src={`https://www.youtube.com/embed/${video.id}?autoplay=1&fs=0&origin=http://pocket.band`}
-            frameborder='0'
+            frameBorder='0'
           ></iframe>
         </div>
         <div className='content-wrapper'>
@@ -42,6 +42,11 @@ export default function Post({ vid, preview }) {
               <h2>{details.author}</h2>
             </div>
             <span>PO: {details.po ? details.po : 'n/a'}</span>
+          </div>
+          <div className='button-wrapper'>
+            <a href={details.download} className='button black'>
+              download
+            </a>
           </div>
         </div>
       </section>

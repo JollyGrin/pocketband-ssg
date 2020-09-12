@@ -8,6 +8,24 @@
     padding: 0 1em;
   }
 
+  & .nav-right {
+    & a {
+      text-decoration: none;
+      color: $color-white;
+      transition: all 0.25s ease-in-out;
+      & i {
+        font-size: 2em;
+        transition: all 0.25s ease-in-out;
+      }
+    }
+    & a:hover {
+      color: $color-black;
+      & i {
+        transform: scale(1.1);
+      }
+    }
+  }
+
   & img {
     height: 2.5em;
     filter: invert(1);

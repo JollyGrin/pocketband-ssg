@@ -17,13 +17,12 @@ export default function Index({ youtube, preview }) {
 }
 
 export async function getStaticProps({ preview = false }) {
-  // const playlist = `PLJo8JIekHU8l39jtfwLsLptOmTqXc2oiW`;
-  // const result = await getPlaylist(playlist);
-  // const youtube = result.data.items;
+  const playlist = `PLJo8JIekHU8l39jtfwLsLptOmTqXc2oiW`;
+  const result = await getPlaylist(playlist);
+  const youtube = result.data.items;
 
   // console.log(JSON.stringify(youtube));
-
-  const youtube = mockResult;
+  // const youtube = mockResult;
 
   return {
     props: { youtube }, // will be passed to the page component as props

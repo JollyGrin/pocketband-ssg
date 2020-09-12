@@ -16,6 +16,11 @@ body {
   background: $color-red;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 #po-shadow {
   opacity: 0.5;
   padding-top: 2em;

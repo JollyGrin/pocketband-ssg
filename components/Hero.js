@@ -15,9 +15,21 @@ export default class Hero extends Component {
             </div>
             <div className='hero-content-right'>
               <ul>
-                <li>more</li>
-                <li>coming</li>
-                <li>soon</li>
+                <li>
+                  <a href='https://www.youtube.com/playlist?list=PLUinGl87WYqKHXxGsuDY-0k0hHDA7RKTP'>
+                    drums
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.youtube.com/playlist?list=PLvH9O_kut3i8OqHTjD0CbXEcBCVWm_lE2'>
+                    more drums
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.youtube.com/playlist?list=PLDqCLxj1K5QxZzyLqo3dZOuFKR-5dD9sf'>
+                    moar drums
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

@@ -1,0 +1,20 @@
+.button {
+  cursor: pointer;
+  user-select: none;
+  background-color: $color-orange;
+  padding: 0.5em;
+  border-radius: 5px;
+  transform: translate(0, -1px);
+  box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0), 0px 1px 0px 0px $color-red;
+
+  transition: all 0.25s ease-in-out;
+}
+
+.button:hover {
+  transform: translate(0, -3px);
+  box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0), 0px 3px 0px 0px $color-red;
+}
+.button:active {
+  transform: translate(0, 0);
+  box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0), 0px 0px 0px 1.5px $color-red;
+}

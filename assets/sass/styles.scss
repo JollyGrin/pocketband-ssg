@@ -16,6 +16,16 @@ body {
   background: $color-red;
 }
 
+#po-shadow {
+  opacity: 0.5;
+  padding-top: 2em;
+  align-self: center;
+
+  @media (min-width: 600px) {
+    width: 600px;
+  }
+}
+
 #vid-wrapper {
   & .iframe-wrapper {
     display: flex;
@@ -25,9 +35,12 @@ body {
     }
   }
   & .content-wrapper {
-    padding-top: 1em;
-    width: 50%;
+    padding: 1em;
     margin: auto;
+
+    @media (min-width: 850px) {
+      width: 850px;
+    }
 
     display: flex;
     flex-direction: column;
@@ -58,7 +71,7 @@ body {
       }
     }
     & .button-wrapper {
-      padding-top: 1em;
+      padding: 1em;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -66,6 +79,12 @@ body {
         text-decoration: none;
         color: inherit;
       }
+    }
+
+    & .content-body {
+      background-color: $color-white;
+      padding: 1em;
+      border-radius: 5px;
     }
   }
 }

@@ -6,12 +6,14 @@ import Hero from '../components/Hero';
 import SectionVideos from '../components/SectionVideos';
 
 import mockResult from '../assets/mock/resultDataItems.json';
+import PO from '../components/PO';
 
 export default function Index({ youtube, preview }) {
   return (
     <Layout>
       <Hero />
       <SectionVideos youtube={youtube} />
+      <PO />
     </Layout>
   );
 }

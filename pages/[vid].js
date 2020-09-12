@@ -5,6 +5,7 @@ import Video from '../components/Video';
 import VideoBox from '../components/VideoBox';
 import YoutubeVideoClass from '../assets/classes/YoutubeVideoClass';
 import Nav from '../components/Nav';
+import HowToPlay from '../components/HowToPlay';
 
 export default function Post({ vid, preview }) {
   const router = useRouter();
@@ -48,6 +49,7 @@ export default function Post({ vid, preview }) {
               download
             </a>
           </div>
+          <HowToPlay />
         </div>
       </section>
     </Layout>

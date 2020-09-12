@@ -15,8 +15,8 @@ export default class Hero extends Component {
             </div>
             <div className='hero-content-right'>
               <ul>
-                <li>more info</li>
-                <li>is coming</li>
+                <li>more</li>
+                <li>coming</li>
                 <li>soon</li>
               </ul>
             </div>

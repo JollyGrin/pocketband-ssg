@@ -11,11 +11,7 @@ export default function Index({ youtube, preview }) {
   return (
     <Layout>
       <Hero />
-      <SectionVideos />
-      {/* <span>Some videos:</span>
-      {youtube.map((video, index) => (
-        <Video key={index} video={video} />
-      ))} */}
+      <SectionVideos youtube={youtube} />
     </Layout>
   );
 }

@@ -38,44 +38,76 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "I_-y5Cw8TEPwCYO5-Z-8AFLk9PQ",
-    "id": "UExKbzhKSWVrSFU4bDM5anRmd0xzTHB0T21UcVhjMm9pVy4yODlGNEE0NkRGMEEzMEQy",
+    "etag": "l31wLmxmkSay5MvP563jPMM60g8",
+    "id": "UExKbzhKSWVrSFU4bDM5anRmd0xzTHB0T21UcVhjMm9pVy4wMTcyMDhGQUE4NTIzM0Y5",
     "snippet": {
-      "publishedAt": "2020-09-10T22:08:59Z",
+      "publishedAt": "2020-09-12T11:52:18Z",
       "channelId": "UCu9MYOepWVMkHg7Nl_wlM9A",
-      "title": "Backup your Pocket Operator 📼 (PO33 K.O!)",
-      "description": "Backup your Pocket Operator 33 KO with these simple steps.",
+      "title": "PO33 Backup: Raindrops",
+      "description": "Playing with a dropping noise\n\n@pocket.band---\nauthor: jollygrin\ntitle: raindrops\npo: 33\ndownload: https://www.dropbox.com/s/27ljxdb0k79wkh1/beat05_raindrops.flac?dl=0",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/XwU4w9do7YQ/default.jpg",
+          "url": "https://i.ytimg.com/vi/HgziPzvmK5Q/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/XwU4w9do7YQ/mqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/HgziPzvmK5Q/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/XwU4w9do7YQ/hqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/HgziPzvmK5Q/hqdefault.jpg",
           "width": 480,
           "height": 360
         },
         "standard": {
-          "url": "https://i.ytimg.com/vi/XwU4w9do7YQ/sddefault.jpg",
+          "url": "https://i.ytimg.com/vi/HgziPzvmK5Q/sddefault.jpg",
           "width": 640,
           "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/XwU4w9do7YQ/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
         }
       },
       "channelTitle": "pocketdotband",
       "playlistId": "PLJo8JIekHU8l39jtfwLsLptOmTqXc2oiW",
       "position": 1,
-      "resourceId": { "kind": "youtube#video", "videoId": "XwU4w9do7YQ" }
+      "resourceId": { "kind": "youtube#video", "videoId": "HgziPzvmK5Q" }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "vwJgoxn45xVvCgiK9IQ_2YXMxGU",
+    "id": "UExKbzhKSWVrSFU4bDM5anRmd0xzTHB0T21UcVhjMm9pVy41MjE1MkI0OTQ2QzJGNzNG",
+    "snippet": {
+      "publishedAt": "2020-09-12T11:54:10Z",
+      "channelId": "UCu9MYOepWVMkHg7Nl_wlM9A",
+      "title": "PO33 Backup: Canalside",
+      "description": "Made this while sitting along a canal\n\n@pocket.band---\nauthor: jollygrin\npo: 33\ntitle: canalside\ndownload: https://www.dropbox.com/s/zewbiggcua80ou0/beat06_canalside.flac?dl=0",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/siDe-m8-FGM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/siDe-m8-FGM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/siDe-m8-FGM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/siDe-m8-FGM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "channelTitle": "pocketdotband",
+      "playlistId": "PLJo8JIekHU8l39jtfwLsLptOmTqXc2oiW",
+      "position": 2,
+      "resourceId": { "kind": "youtube#video", "videoId": "siDe-m8-FGM" }
     }
   }
 ]

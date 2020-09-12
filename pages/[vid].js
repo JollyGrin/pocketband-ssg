@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import Layout from '../components/Layout';
 import { getPlaylist, getVideo } from '../assets/js/youtube';
 import Video from '../components/Video';
+import VideoBox from '../components/VideoBox';
 
 export default function Post({ vid, preview }) {
   const router = useRouter();
@@ -11,7 +12,7 @@ export default function Post({ vid, preview }) {
 
   return (
     <Layout>
-      <Video video={vid} />
+      <VideoBox video={vid} />
     </Layout>
   );
 }

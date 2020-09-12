@@ -21,6 +21,8 @@ export async function getStaticProps({ preview = false }) {
   // const result = await getPlaylist(playlist);
   // const youtube = result.data.items;
 
+  // console.log(JSON.stringify(youtube));
+
   const youtube = mockResult;
 
   return {

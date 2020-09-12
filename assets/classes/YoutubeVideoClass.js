@@ -2,7 +2,9 @@ import YAML from 'yaml';
 
 export default class YoutubeVideoClass {
   constructor(video) {
-    this.id = video.id;
+    this.id = video.snippet.resourceId?.videoId
+      ? video.snippet.resourceId.videoId
+      : video.id;
     this.title = video.snippet.title;
     this.channelId = video.snippet.channelId;
     this.channelTitle = video.snippet.channelTitle;

@@ -16,6 +16,11 @@ export default class Nav extends Component {
                 <i className='fab fa-discord' />
               </a>
             </span>
+            <span>
+              <a href='https://github.com/JollyGrin/pocketband-ssg'>
+                <i className='fab fa-github' />
+              </a>
+            </span>
           </div>
         </section>
       </Fragment>

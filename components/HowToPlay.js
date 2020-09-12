@@ -46,7 +46,7 @@ export default class HowToPlay extends Component {
             delicate backup loading process.
           </p>
 
-          <h3>3) Backup to PO</h3>
+          <h3>3) Load backup on PO</h3>
           <p>
             With your device connected to the pocket operator, on your PO click:
             record + sound + write. You'll see "rcv" on your PO.

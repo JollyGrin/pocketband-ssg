@@ -1,3 +1,33 @@
+$color-black: #1b262c;
+$color-blue: #0f4c81;
+$color-red: #ed6663;
+$color-orange: #ffa372;
+$color-white: #f8f8ff;
+
+@import './backgrounds/turtleshell.scss';
+@import './backgrounds/carbon.scss';
+@import './nav.scss';
+@import './hero.scss';
+
 body {
-  background: grey;
+  font-family: 'Rubik', sans-serif;
+  color: $color-black;
+  letter-spacing: 0.25px;
+  background: $color-red;
+}
+
+#section-videos {
+  background-color: $color-black;
+  min-height: 10vh;
+  padding: 1em;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  grid-gap: 1em;
+
+  & .video-box {
+    background-color: $color-white;
+    border-radius: 0.25em;
+    min-height: 7em;
+  }
 }

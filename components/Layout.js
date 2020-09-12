@@ -11,13 +11,18 @@ export default class Layout extends Component {
         <Head>
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <title>Pocket Band</title>
+          <link rel='stylesheet' type='text/css' href='css/reset.css' />
+          <link rel='stylesheet' type='text/css' href='css/styles.css' />
           <link
             rel='stylesheet'
             type='text/css'
             href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'
           />
-          <link rel='stylesheet' type='text/css' href='css/reset.css' />
-          <link rel='stylesheet' type='text/css' href='css/styles.css' />
+
+          <link
+            href='https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap'
+            rel='stylesheet'
+          />
         </Head>
         {this.props.children}
       </Fragment>

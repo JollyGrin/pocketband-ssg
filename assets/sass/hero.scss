@@ -1,0 +1,39 @@
+#hero {
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & .hero-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: minmax(50%, 20%);
+    justify-content: space-between;
+    & > div {
+      padding: 0 2.5em;
+    }
+    & .hero-content-right {
+      align-self: center;
+    }
+
+    & h1 {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    & ul {
+      font-size: 1.5em;
+      list-style-type: '> ';
+      list-style-position: outside;
+      & li::before {
+        margin-right: 1em;
+      }
+      & li {
+        cursor: pointer;
+        transition: all 0.25s ease-in-out;
+      }
+      & li:hover {
+        color: $color-white;
+      }
+    }
+  }
+}

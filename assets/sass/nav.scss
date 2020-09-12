@@ -1,0 +1,15 @@
+#nav {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & .nav-right > * {
+    padding: 0 1em;
+  }
+
+  & img {
+    height: 2.5em;
+    filter: invert(1);
+  }
+}

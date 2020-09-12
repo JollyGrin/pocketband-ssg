@@ -49,7 +49,7 @@ export default function Post({ vid, preview }) {
               download
             </a>
           </div>
-          <HowToPlay />
+          <HowToPlay po={details.po} />
         </div>
       </section>
     </Layout>
